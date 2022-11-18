@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pico.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>Traductor API JS</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Traductor</h2>
+        <form id="form">
+            <label for="text">
+                Ingresa un texto
+            </label>
+            <input type="text" id="text" autocomplete="off">
+            <button type="submit" id="submit">Traducir</button>
+        </form>
+
+        <!-- show data render -->
+        <div class="data">
+            <p class="text-render"></p>
+        </div>
+    </main>
+    <small class="container">By Hiram Gabriel</small>
+
+    <script src="./app.js"></script>
+    <!-- sweetalert  librery js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
